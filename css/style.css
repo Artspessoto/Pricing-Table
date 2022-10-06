@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f9fbfc;
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.titlePage {
+  font-size: 40px;
+}
+
+main {
+  width: 100%;
+  height: 50%;
+}
+
+.container {
+  background-color: #1d539e;
+  height: 100%;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  color: #f9fbfc;
+}
+
+.text1 {
+  margin: 2px;
+}
+
+h4 {
+  margin: 0;
+  padding: 20px 16px;
+}
+
+.basicText {
+  color: #1d539e;
+  margin: 0;
+  padding: 16px;
+  padding: 16px 0;
+}
+
+.formWrapper {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 50px;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  padding: 13% 0;
+  justify-content: center;
+}
+
+.contentPrices {
+  display: flex;
+  align-items: baseline;
+  padding-left: 20px;
+}
+
+h5 {
+  padding-right: 5px;
+}
+
+.formControl {
+  height: 95%;
+}
+
+.formControl,
+.formControlBasic {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.textMonth,
+.textConfirm,
+.textConfirm2 {
+  font-size: 14px;
+  color: #828799;
+}
+
+.textConfirm {
+  padding-left: 20px;
+}
+
+.textConfirm2 {
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.controlTextConfirm {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.btnControl {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 20%;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #1d539e;
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d539e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  color: white;
+  background-color: #1d539e;
+}
+
+.basicPopular {
+  background-color: #ffcc29;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50%;
+  height: 60px;
+}
+
+.btnBasic {
+  cursor: pointer;
+  background-color: #1d539e;
+  color: white;
+  font-size: 14px;
+  width: 25%;
+  border-radius: 20px;
+}
